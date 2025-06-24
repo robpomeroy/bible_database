@@ -37,7 +37,6 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-
 ### Configure environment variables
 
 - Copy the example environment file `.env.example` to `.env`
@@ -76,3 +75,9 @@ translations = db.get_available_translations()
 - BBE (Bible in Basic English)
 - WEB (World English Bible)
 - YLT (Young's Literal Translation)
+
+## Testing
+
+Please refer to the [TESTING.md](TESTING.md) file for detailed instructions on
+how to run tests, including unit and integration tests, and how to set up your
+environment for testing.
